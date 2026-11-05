@@ -11,6 +11,18 @@ export {
 } from "./types.js";
 export { parseStoryboard } from "./parseStoryboard.js";
 export {
+  assignMissingFrameIds,
+  assertFrameIdentities,
+  setFrameFieldById,
+} from "./frameIdentity.js";
+export {
+  createReviewBoardManifest,
+  serializeReviewBoardManifest,
+  type ReviewBoardManifest,
+  type ReviewBoardFrame,
+  type ReviewBoardStill,
+} from "./reviewManifest.js";
+export {
   setFrameField,
   setFrameVoiceover,
   setFrameStatus,
